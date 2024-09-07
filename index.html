@@ -2,9 +2,22 @@
     <head>
         <title>Lugares en Perú que debes visitar</title>
         <link rel="stylesheet" href="style.css">
+
+
     </head>
 
     <body>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", function(){
+                document.getElementById("btnNewURL").addEventListener("click",function(){
+                    window.open ("https://www.machupicchu.gob.pe/", "_blank")
+
+                });
+            });
+            
+            
+        </script>
         <h1>LUGARES QUE DEBES VISITAR</h1>
 
         <section>
@@ -18,8 +31,8 @@
                 <li>Explorar las ruinas antiguas</li>
             </ul>
             <img src="image/machu.png" alt="Visita Macchu Picchu"> 
-            <p>Mas información en: <a href="https://www.machupicchu.gob.pe/" 
-                target="_blank">Macchu Picchu</a></p>
+            <p>Mas información en: 
+                <button id="btnNewURL"> Macchu Picchu</button></p>
         </section>
 
         <section>
